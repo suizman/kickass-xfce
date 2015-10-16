@@ -1,0 +1,8 @@
+---
+### Base packages
+xfce_base_pkg: xfce4
+
+### Extra packages
+xfce_extra_pkg: true
+xfce_xfwm4_themes_pkg: xfwm4-themes
+xfce_numix_themes_pkg: numix-themes

@@ -1,0 +1,5 @@
+---
+### Install required roles..
+- src: https://github.com/suizman/kickass-xfce.git
+  path: roles
+  scm: git

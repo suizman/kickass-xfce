@@ -1,0 +1,16 @@
+---
+### Archlinux
+- name: Install Xfce4 Arch Linux
+  include: archlinux/install_xfce.yml
+
+### Debian
+- name: Install Xfce4 Debian/Ubuntu
+  include: debian/install_xfce.yml
+
+### Redhat
+- name: Install Xfce4 CentOS/Fedora/SuSe
+  include: redhat/install_xfce.yml
+
+### Common
+- name: Configure Common
+  include: common/configure_xfce.yml

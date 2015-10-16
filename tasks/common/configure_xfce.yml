@@ -1,0 +1,6 @@
+---
+- name: Copy xfce terminalrc file
+  template:
+    src: ../../templates/common/xfce4-terminalrc.j2
+    dest: "{{ ansible_env.HOME }}/.config/xfce4/terminal/terminalrc"
+    mode: 0644
