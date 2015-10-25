@@ -4,5 +4,6 @@ xfce_base_pkg: xfce4
 
 ### Extra packages
 xfce_extra_pkg: true
-xfce_xfwm4_themes_pkg: xfwm4-themes
-xfce_numix_themes_pkg: numix-themes
+xfce_xfwm4_archlinux_pkg: xfwm4-themes
+xfce_numix_archlinux_pkg: numix-themes
+xfce_numix_debian_pkg: shiki-colors-xfwm-theme
