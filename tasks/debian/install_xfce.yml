@@ -13,6 +13,5 @@
     name: "{{ item }}"
     state: present
   with_items:
-    - "{{ xfce_xfwm4_themes_pkg }}"
-    - "{{ xfce_numix_themes_pkg }}"
+    - "{{ xfce_numix_debian_pkg }}"
   when: ansible_os_family == "Debian" or ansible_os_family == "Ubuntu"
